@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Restoran - Bootstrap Restaurant </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Restoran</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Service</a>
+                        <a href="menu.html" class="nav-item nav-link">Menu</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="booking.html" class="dropdown-item">Booking</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                    </div>
+                    <a href="" class="btn btn-primary py-2 px-4">Book A Table</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">Contact Us</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Contact Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Contact Us</h5>
+                    <h1 class="mb-5">Contact For Any Query</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-12">
+                        <div class="row gy-4">
+                            <div class="col-md-4">
+                                <h5 class="section-title ff-secondary fw-normal text-start text-primary">Booking</h5>
+                                <p><i class="fa fa-envelope-open text-primary me-2"></i>book@example.com</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h5 class="section-title ff-secondary fw-normal text-start text-primary">General</h5>
+                                <p><i class="fa fa-envelope-open text-primary me-2"></i>info@example.com</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h5 class="section-title ff-secondary fw-normal text-start text-primary">Technical</h5>
+                                <p><i class="fa fa-envelope-open text-primary me-2"></i>tech@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div >
+                        
+                         <img height="200"  src="data:image/png;base64,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">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="wow fadeInUp" data-wow-delay="0.2s">
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                            <label for="name">Your Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                            <label for="email">Your Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                            <label for="subject">Subject</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
+                                            <label for="message">Message</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
+                        <a class="btn btn-link" href="">About Us</a>
+                        <a class="btn btn-link" href="">Contact Us</a>
+                        <a class="btn btn-link" href="">Reservation</a>
+                        <a class="btn btn-link" href="">Privacy Policy</a>
+                        <a class="btn btn-link" href="">Terms & Condition</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>KOlhapur ,Raviwar Peth</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>>7038257334</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>prathamesh3342misal@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+                        <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                        <p>09AM - 09PM</p>
+                        <h5 class="text-light fw-normal">Sunday</h5>
+                        <p>10AM - 08PM</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4"></h4>
+                        <p></p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Your Site Name Restoran</a>, All Right Reserved Prathamesh 
+							
+							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Code </a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
